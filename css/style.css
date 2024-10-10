@@ -102,6 +102,10 @@ header .logo {
     margin-bottom: 17px;
 }
 
+header .logo {
+    margin-bottom: 17px;
+}
+
 header nav a {
     font-family: "Cera Pro", sans-serif;
     font-weight: 400;
@@ -121,6 +125,7 @@ header .login {
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin-bottom: 18px;
   }
 
 header .login:before {
