@@ -3,25 +3,32 @@
     padding: 0;
     margin: 0;
 }
+
+/*Registration form*/
 .age-registration {
     max-width: 500px;
     border: solid 2px black;
     margin: auto;
     padding: 52px 100px 50px;
 }
-.login {
+
+.login-form {
     text-align: center;
     margin-bottom: 40px;
 }
+
 .register {
     color: #46A358
 }
+
 p {
     text-align: center;
 }
+
 .text-enter-email {
     margin-bottom: 14px;
 }
+
 .form {
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -30,9 +37,11 @@ p {
     padding-left: 14px;
     margin-bottom: 16px
 }
+
 .password {
     margin-bottom: 43px;
 }
+
 .button {
     border-radius: 5px;
     border: white;
@@ -42,9 +51,11 @@ p {
     margin-bottom: 34px;
     color: white
 }
+
 .text-register {
     margin-bottom: 27px
 }
+
 .link-total {
     text-align: center;
     border: 1px solid #eaeaea;
@@ -56,7 +67,80 @@ p {
     text-decoration: none;
     color: black
 }
+
 .link-fb {
     margin-bottom: 43px;
 }
 
+/*Header*/
+header {
+    padding-top: 30px;
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+header .logo {
+    margin-bottom: 17px;
+}
+
+header nav a {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+header .login {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 17px;
+    border-radius: 6px;
+    background: #46a358;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+header .login:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Logout.svg");
+    margin-right: 4px;
+}
+
+header nav li:after {
+    display: block;
+    width: 0;
+    content: "";
+    background-color: #46a358;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+header nav li:hover:after {
+width: 100%;
+}
