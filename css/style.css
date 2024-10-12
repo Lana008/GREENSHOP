@@ -150,6 +150,7 @@ header nav li:hover:after {
 }
 
 /*main section-1*/
+
 main .container {
     display: flex;
     justify-content: space-between;
@@ -158,6 +159,11 @@ main .container {
 
 .main-section-1 {
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+
+.maine-article-1 {
+    padding-top: 68px;
+    padding-left: 40px;
 }
 
 .title-main-section-h4 {
@@ -184,6 +190,7 @@ main .container {
 .text-color-planet {
     color: #46A358;
 }
+
 .text-main-section {
     font-family: "Cera Pro", sans-serif;
     font-weight: 400;
