@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -105,7 +117,7 @@ header .logo {
 }
 
 header nav a {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -113,7 +125,7 @@ header nav a {
 }
 
 header .login {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -154,20 +166,22 @@ header nav li:hover:after {
 main .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .main-section-1 {
+    max-width: 1200px;
+    margin: auto;
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
 
-.maine-article-1 {
+.main-article-1 {
     padding-top: 68px;
     padding-left: 40px;
 }
 
 .title-main-section-h4 {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -178,7 +192,7 @@ main .container {
 }
 
 .title-main-section-h1 {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -192,7 +206,7 @@ main .container {
 }
 
 .text-main-section {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -202,7 +216,7 @@ main .container {
 }
 
 .button-shop-now {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -216,3 +230,162 @@ main .container {
     background: #46a358;
     margin-bottom: 93px;
 }
+
+/*section products */
+.product {
+    margin-top: 31px;
+    margin-bottom: 82px;
+}
+
+.product .left-side {
+    background: #fbfbfb;
+    max-width: 310px;
+}
+
+.product .right-side {
+    max-width: 840px;
+}
+
+.categories {
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin: 14px 199px 7px 18px;
+}
+
+.menu {
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 267%;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+main section li .menu:hover {
+    font-weight: 700;
+    color: #46a358;
+}
+
+.categories-list {
+    margin: 7px 188px 377px 31px;
+}
+
+.product .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .product-sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.product .product-sort ul {
+    display: flex;
+}
+
+.product-sort .type {
+    margin-right: 40px;
+}
+
+.product .product-sort ul a, p {
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.product .product-sort li a:after {
+    display: block;
+    width: 0;
+    content: "";
+    background-color: #46a358;
+    height: 2px;
+    margin-top: 7px;
+    transition: 0.4s;
+}
+
+.product .product-sort li a:hover:after {
+    width: 100%;
+}
+
+.product .product-sort li a:hover {
+    color: #46a358;
+    font-weight: 700;
+}
+
+.main-product-items article {
+    max-width: 258px;
+}
+
+.main-product-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 840px;
+}
+
+.product-card a {
+margin-bottom: 12px;
+}
+.product-card h4 {
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-bottom: 6px;
+}
+
+.product-card p {
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+}
+
+.product-card {
+    margin-bottom: 70px;
+}
+
+.list-pager ul {
+    display: flex;
+}
+
+.list-pager li a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.number-list {
+    margin-right: 10px;
+}
+
+
+.list-pager li a:hover {
+    background-color: #46a358;
+    color: white;
+}
+
+.list-pager {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+     }
+
+
+
