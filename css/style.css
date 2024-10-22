@@ -161,12 +161,12 @@ header nav li:hover:after {
     width: 100%;
 }
 
-/*main section-1*/
+/*main section with products*/
 
 main .container {
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .main-section-1 {
@@ -234,7 +234,7 @@ main .container {
 /*section products */
 .product {
     margin-top: 31px;
-    margin-bottom: 82px;
+    margin-bottom: 92px;
 }
 
 .product .left-side {
@@ -391,6 +391,41 @@ main section li .menu:hover {
     margin: auto;
     display: flex;
     justify-content: end;
+
+}
+
+/*section with articles*/
+.section-articles {
+    padding-top: 68px;
+    padding-bottom: 138px;
+}
+.article-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fbfbfb;
+    text-align:right;
+}
+
+.article-online {
+    padding-right: 30px;
+   }
+.article-content h2 {
+    font-family: cera_proregular;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+}
+.article-content p {
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
 }
 
 
