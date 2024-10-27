@@ -526,6 +526,7 @@ main section li .menu:hover {
     color: #3d3d3d;
     text-decoration: none;
     display: inline-flex;
+    margin-bottom: 13px;
 }
 
 .article-blog a:after {
