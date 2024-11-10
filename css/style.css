@@ -563,7 +563,7 @@ main section li .menu:hover {
     background: #fbfbfb;
 }
 
-.article-blog h4 h3 p a {
+.article-blog h4,h3,p,a {
     margin-left: 15px;
 }
 
@@ -709,6 +709,14 @@ header nav .dropdown-2 {
     position: relative;
 }
 
+header nav .sub-menu-2 li:hover {
+    background: #1a712a;
+}
+
+header nav .sub-menu-2 li a:hover {
+    color: white;
+}
+
 header nav .sub-menu-2 {
     position: absolute;
     min-width: 178px;
@@ -735,6 +743,37 @@ header nav .sub-menu-2 a:hover {
     font-size: 16px;
     color: #3d3d3d;
 }
+/*<!--section with advice and form-->*/
+.section-advice {
+    background: #fbfbfb;
+    max-width: 1200px;
+    margin: auto;
+    padding: 24px 25px 24px 25px;
+   }
+.article-advice {
+    max-width: 204px;
+}
+
+.section-advice .article-advice h3 {
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.section-advice .article-advice p {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+}
+
+
+
 
 
 
