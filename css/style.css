@@ -361,7 +361,7 @@ main section li .menu:hover {
 
 .price-sale {
     font-family: cera_proregular;
-     font-weight: 400;
+    font-weight: 400;
     font-size: 18px;
     line-height: 89%;
     color: #a5a5a5;
@@ -626,6 +626,7 @@ main section li .menu:hover {
 .article-blog a:hover:after {
     background-image: url("../images/arrow_green.svg");
 }
+
 /*drop down menu #1*/
 header nav .dropdown {
     position: relative;
@@ -639,7 +640,7 @@ header nav .sub-menu {
     top: 40px;
     display: none;
     padding-top: 20px;
-    }
+}
 
 header nav .sub-menu li {
     padding-top: 7px;
@@ -651,48 +652,56 @@ header nav .sub-menu li {
     background-color: #edf6ee;
 }
 
-header nav .dropdown:hover .sub-menu {
-    display:flex;
-    }
-
-header nav .sub-menu li:after {
-    display: none;
-}
-
-header nav .sub-menu .dropdown-2-hover:hover {
+header nav .sub-menu a {
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
 }
+
+header nav .dropdown:hover .sub-menu {
+    display: flex;
+}
+
+header nav .sub-menu li:after {
+    display: none;
+}
+
+header nav .sub-menu .dropdown-2-list:hover {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
 /*hover for drop down menu #1 hover*/
 header nav .dropdown-2:hover {
     background: #1a712a;
-   }
+}
 
-header nav .dropdown-2 .dropdown-2-hover:hover {
+header nav .dropdown-2 .dropdown-2-list:hover {
     font-family: cera_proregular;
     font-weight: 700;
     font-size: 16px;
     color: #fff;
 }
 
-header nav .dropdown-2 .dropdown-2-hover:after {
+header nav .dropdown-2 .dropdown-2-list:after {
     content: "";
     display: inline-block;
     width: 6px;
     height: 10px;
     background-image: url("../images/arrow_black_drop.svg");
-    margin-left: 50px;
+    margin-left: 95px;
 }
 
-header nav .dropdown-2 .dropdown-2-hover:hover:after {
+header nav .dropdown-2 .dropdown-2-list:hover:after {
     content: "";
     display: inline-block;
     width: 6px;
     height: 10px;
     background-image: url("../images/arrow_white_drop.svg");
-    margin-left: 50px;
+    margin-left: 95px;
 }
 
 /*drop down menu #2*/
@@ -717,7 +726,7 @@ header nav .sub-menu-2 li {
 }
 
 header nav .dropdown-2:hover .sub-menu-2 {
-    display:flex;
+    display: flex;
 }
 
 header nav .sub-menu-2 a:hover {
@@ -725,7 +734,6 @@ header nav .sub-menu-2 a:hover {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-
 }
 
 
