@@ -166,7 +166,7 @@ header nav li:after {
 
 header nav li:hover:after {
     width: 100%;
-    }
+}
 
 /*main section with products*/
 
@@ -644,7 +644,7 @@ header nav .sub-menu {
 header nav .sub-menu li {
     padding-top: 7px;
     padding-left: 14px;
-    padding-bottom: 9px;
+    padding-bottom: 8px;
 }
 
 header nav .sub-menu li {
@@ -657,14 +657,75 @@ header nav .dropdown:hover .sub-menu {
 
 header nav .sub-menu li:after {
     display: none;
-
 }
 
-header nav .sub-menu a:hover {
+header nav .sub-menu .dropdown-2-hover:hover {
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
+}
+/*hover for drop down menu #1 hover*/
+header nav .dropdown-2:hover {
+    background: #1a712a;
+   }
+
+header nav .dropdown-2 .dropdown-2-hover:hover {
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+header nav .dropdown-2 .dropdown-2-hover:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    background-image: url("../images/arrow_black_drop.svg");
+    margin-left: 50px;
+}
+
+header nav .dropdown-2 .dropdown-2-hover:hover:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    background-image: url("../images/arrow_white_drop.svg");
+    margin-left: 50px;
+}
+
+/*drop down menu #2*/
+header nav .dropdown-2 {
+    position: relative;
+}
+
+header nav .sub-menu-2 {
+    position: absolute;
+    min-width: 178px;
+    flex-direction: column;
+    gap: 0;
+    top: 0;
+    left: 188px;
+    display: none;
+}
+
+header nav .sub-menu-2 li {
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-bottom: 8px;
+}
+
+header nav .dropdown-2:hover .sub-menu-2 {
+    display:flex;
+}
+
+header nav .sub-menu-2 a:hover {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+
 }
 
 
