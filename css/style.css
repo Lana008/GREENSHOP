@@ -563,7 +563,9 @@ main section li .menu:hover {
     background: #fbfbfb;
 }
 
-.article-blog h4,h3,p,a {
+.article-blog h4, .article-blog h3,
+.article-blog, .article-blog p,
+.article-blog a {
     margin-left: 15px;
 }
 
@@ -743,13 +745,15 @@ header nav .sub-menu-2 a:hover {
     font-size: 16px;
     color: #3d3d3d;
 }
+
 /*<!--section with advice and form-->*/
 .section-advice {
     background: #fbfbfb;
     max-width: 1200px;
     margin: auto;
     padding: 24px 25px 24px 25px;
-   }
+}
+
 .article-advice {
     max-width: 204px;
 }
@@ -772,7 +776,61 @@ header nav .sub-menu-2 a:hover {
     color: #727272;
 }
 
+.form-advice-section {
+    max-width: 354px;
+}
 
+.form-advice-section h2 {
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 25px;
+}
+
+.block-form {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.form-advice {
+    width: 274px;
+    height: 40px;
+    border: 1px white;
+    padding-left: 14px;
+    border-radius: 6px 0 0 6px;
+}
+
+.button-advice {
+    width: 85px;
+    height: 40px;
+    background: #46a358;
+    border: 1px white;
+    border-radius: 0 6px 6px 0;
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+}
+
+/*.form {*/
+/*    border: 1px solid #eaeaea;*/
+/*    border-radius: 5px;*/
+/*    width: 300px;*/
+/*    height: 40px;*/
+/*    padding-left: 14px;*/
+/*    margin-bottom: 16px*/
+/*}*/
+
+.form-advice-section p {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+}
 
 
 
