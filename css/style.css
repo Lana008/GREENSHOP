@@ -815,15 +815,6 @@ header nav .sub-menu-2 a:hover {
     color: #fff;
 }
 
-/*.form {*/
-/*    border: 1px solid #eaeaea;*/
-/*    border-radius: 5px;*/
-/*    width: 300px;*/
-/*    height: 40px;*/
-/*    padding-left: 14px;*/
-/*    margin-bottom: 16px*/
-/*}*/
-
 .form-advice-section p {
     font-family: cera_proregular;
     font-weight: 400;
@@ -832,6 +823,44 @@ header nav .sub-menu-2 a:hover {
     color: #727272;
 }
 
+/*<!--section with gradient-->*/
+.container-gradient {
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+    padding: 25px 23px;
+}
 
+.gradient a {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
 
+.icon-address:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Icon_adress.svg");
+    margin-right: 10px;
+ }
 
+.icon-email:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Icon_mail.svg");
+    margin-right: 10px;
+}
+
+.icon-phone:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Icon_phone.svg");
+    margin-right: 10px;
+}
