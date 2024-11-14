@@ -865,3 +865,54 @@ header nav .sub-menu-2 a:hover {
     margin-right: 10px;
 }
 /*<!--contacts-->*/
+.social-media-pictures {
+    display: flex;
+}
+
+.container-contacts {
+    padding: 33px 155px 29px 25px;
+    background: #fbfbfb;
+}
+
+.contacts .container-contacts h2 {
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+
+.contacts-title {
+    margin-bottom: 8px;
+}
+
+.social-media h2 {
+    margin-bottom: 20px;
+}
+
+.social-media-pictures {
+    gap: 10px;
+    margin-bottom: 33px;
+}
+
+.contacts-list li,a {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.container-contacts {
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    }
+
+footer p {
+    text-align: center;
+}
+
+.down-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
