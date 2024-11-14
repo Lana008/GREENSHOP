@@ -681,7 +681,7 @@ header nav .dropdown-2:hover {
     background: #1a712a;
 }
 
-header nav .dropdown-2 .dropdown-2-list:hover {
+header nav .dropdown-2:hover .dropdown-2-list {
     font-family: cera_proregular;
     font-weight: 700;
     font-size: 16px;
@@ -697,7 +697,7 @@ header nav .dropdown-2 .dropdown-2-list:after {
     margin-left: 95px;
 }
 
-header nav .dropdown-2 .dropdown-2-list:hover:after {
+header nav .dropdown-2:hover .dropdown-2-list:after {
     content: "";
     display: inline-block;
     width: 6px;
@@ -715,7 +715,7 @@ header nav .sub-menu-2 li:hover {
     background: #1a712a;
 }
 
-header nav .sub-menu-2 li a:hover {
+header nav .sub-menu-2 li:hover a {
     color: white;
 }
 
@@ -845,7 +845,7 @@ header nav .sub-menu-2 a:hover {
     height: 20px;
     background-image: url("../images/Icon_adress.svg");
     margin-right: 10px;
- }
+    }
 
 .icon-email:before {
     content: "";
@@ -864,3 +864,4 @@ header nav .sub-menu-2 a:hover {
     background-image: url("../images/Icon_phone.svg");
     margin-right: 10px;
 }
+/*<!--contacts-->*/
