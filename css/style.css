@@ -836,6 +836,7 @@ header nav .sub-menu-2 a:hover {
     line-height: 157%;
     color: #3d3d3d;
     text-decoration: none;
+    display: flex;
 }
 
 .icon-address:before {
@@ -845,6 +846,7 @@ header nav .sub-menu-2 a:hover {
     height: 20px;
     background-image: url("../images/Icon_adress.svg");
     margin-right: 10px;
+    margin-top: 12px;
     }
 
 .icon-email:before {
