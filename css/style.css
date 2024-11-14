@@ -910,6 +910,11 @@ header nav .sub-menu-2 a:hover {
 
 footer p {
     text-align: center;
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
 }
 
 .down-section {
