@@ -758,6 +758,13 @@ header nav .sub-menu-2 a:hover {
     max-width: 204px;
 }
 
+.article-border {
+    width: 700px;
+    height: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+}
+
 .section-advice .article-advice h3 {
     font-family: cera_proregular;
     font-weight: 700;
@@ -847,7 +854,7 @@ header nav .sub-menu-2 a:hover {
     background-image: url("../images/Icon_adress.svg");
     margin-right: 10px;
     margin-top: 12px;
-    }
+}
 
 .icon-email:before {
     content: "";
@@ -866,6 +873,7 @@ header nav .sub-menu-2 a:hover {
     background-image: url("../images/Icon_phone.svg");
     margin-right: 10px;
 }
+
 /*<!--contacts-->*/
 .social-media-pictures {
     display: flex;
@@ -897,7 +905,7 @@ header nav .sub-menu-2 a:hover {
     margin-bottom: 33px;
 }
 
-.contacts-list li,a {
+.contacts-list li, a {
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
@@ -908,7 +916,12 @@ header nav .sub-menu-2 a:hover {
 
 .container-contacts {
     border-bottom: 1px solid rgba(70, 163, 88, 0.2);
-    }
+}
+
+.contacts-list li:hover a {
+    font-weight: 700;
+    color: #46A358;
+}
 
 footer p {
     text-align: center;
@@ -923,3 +936,17 @@ footer p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/*banner JS on the lesson*/
+/*.owl-dots {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.owl-dot span {*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    border-radius: 50%;*/
+/*    background-color: #1a712a;*/
+/*    margin: 10px;*/
+/*    display: inline-block;*/
+/*}*/
