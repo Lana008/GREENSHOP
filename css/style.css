@@ -143,12 +143,12 @@ header .login {
     display: flex;
     align-items: center;
     margin-bottom: 18px;
-    animation: login infinite 3s ;
+    animation: login infinite 3s;
 }
 
 @keyframes login {
     10% {
-        transform: skew(10deg, 10deg); ;
+        transform: skew(10deg, 10deg);;
     }
 
 }
@@ -810,10 +810,10 @@ header nav .dropdown-2:hover .sub-menu-2 {
 }
 
 header nav .sub-menu-2 li:hover a {
-        font-family: cera_proregular;
-        font-weight: 700;
-        font-size: 16px;
-        color: #fff;
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
 }
 
 /*<!--section with advice and form-->*/
@@ -1006,6 +1006,47 @@ footer p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/*preloader*/
+body:has(.preloader) {
+    overflow: hidden;
+}
+
+.preloader {
+    position: fixed;
+    inset: 0;
+    background: white;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+.preloader:after {
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    border: 10px solid #52c368;
+    display: block;
+    border-bottom-color: #1a712a;
+    border-radius: 50%;
+    animation: preloader-rotate 2s ease infinite;
+}
+
+@keyframes preloader-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.is-loaded {
+    opacity: 0;
+  }
 
 /*banner JS on the lesson*/
 /*.owl-dots {*/
