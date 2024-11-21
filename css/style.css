@@ -1008,9 +1008,9 @@ footer p {
 }
 
 /*preloader*/
-body:has(.preloader) {
-    overflow: hidden;
-}
+/*body:has(.preloader) {*/
+/*    overflow: hidden;*/
+/*}*/
 
 .preloader {
     position: fixed;
@@ -1044,9 +1044,10 @@ body:has(.preloader) {
     }
 }
 
-.is-loaded {
-    opacity: 0;
-  }
+/*.is-loaded {*/
+/*    opacity: 0;*/
+/*  }*/
+
 
 /*banner JS on the lesson*/
 /*.owl-dots {*/
